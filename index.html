@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+    <body>
+        <main class="contenido_main">
+            <section class="contenido_section">
+                <div class="inputs">
+                    <div class="input_especifico">
+                        <div class="Logo">
+                            <img class="LogoAlura" src="Logo.png" alt="LogoAlura">
+                        </div>
+                        <input class="Texto_Encriptar_Des" id="Encriptador_E" type="text" placeholder="Ingrese el texto aqui" autocorrect="off" >
+                         <p class="Texto_Encriptado_Des" id="Encriptador_llegada" type="text" autocorrect="off" ></p>
+                    </div>
+                    <div class="botones">
+                        <div class="parrafo">
+                            <img class="interrogante1" src="1268.png" alt="interrogante">
+                            <p>Solo letras minusculas y sin acentos</p>
+                        </div>
+                        <button onclick="Encriptador_Click();" class="Encriptador" style="margin-right: 24px;">Encriptar</button>
+                        <button onclick="Desencriptar_Click();" id="Desencriptar" class="Desencriptar">Desencriptar</button>
+                        <div class="Copiar_separado">
+                        <button onclick="Copiar()" id="CopiarTexto" class="Copiar" disabled hidden>Copiar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </main>
+
+        <footer></footer>
+
+        <script src="programa.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
